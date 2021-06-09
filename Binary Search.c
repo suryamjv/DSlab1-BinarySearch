@@ -1,4 +1,5 @@
-/*     ALGORITHM TO PERFORM BINARY SEARCH FOR A GIVEN LIST
+						/*  ALGORITHM TO PERFORM BINARY SEARCH FOR A GIVEN LIST */
+/*
 Step1 : start
 step2 : declare n,i,val,pos,option
 step3 : input n 
@@ -64,6 +65,7 @@ step21 : IF pos!=-1
            GO TO step 22
 step22: STOP
 */
+					/* PROGRAM FOR BINARY SEARCH USING RECURSIVE AND NON-RECURSIVE FUNCTION */
 #include<stdio.h>
 int binaryrecur(int n,int arr[*],int beg,int end,int val);   //Recursive function
 void binarynonrecur(int n,int arr[*],int beg,int end,int val);	//Non-Recursive function
